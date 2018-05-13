@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1940D820A7EB2100B3586E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1940D720A7EB2100B3586E /* AppDelegate.swift */; };
+		ED1940DA20A7EB2100B3586E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED1940D920A7EB2100B3586E /* GameScene.sks */; };
+		ED1940DC20A7EB2100B3586E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED1940DB20A7EB2100B3586E /* Actions.sks */; };
+		ED1940DE20A7EB2100B3586E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1940DD20A7EB2100B3586E /* GameScene.swift */; };
+		ED1940E020A7EB2100B3586E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1940DF20A7EB2100B3586E /* GameViewController.swift */; };
+		ED1940E320A7EB2100B3586E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1940E120A7EB2100B3586E /* Main.storyboard */; };
+		ED1940E520A7EB2500B3586E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1940E420A7EB2500B3586E /* Assets.xcassets */; };
+		ED1940E820A7EB2500B3586E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1940E620A7EB2500B3586E /* LaunchScreen.storyboard */; };
+		ED1940F320A7EB2500B3586E /* Asteroid_CruiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1940F220A7EB2500B3586E /* Asteroid_CruiserTests.swift */; };
+		ED1940FE20A7EB2500B3586E /* Asteroid_CruiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1940FD20A7EB2500B3586E /* Asteroid_CruiserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED1940EF20A7EB2500B3586E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1940CC20A7EB2100B3586E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1940D320A7EB2100B3586E;
+			remoteInfo = "Asteroid Cruiser";
+		};
+		ED1940FA20A7EB2500B3586E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1940CC20A7EB2100B3586E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1940D320A7EB2100B3586E;
+			remoteInfo = "Asteroid Cruiser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED1940D420A7EB2100B3586E /* Asteroid Cruiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asteroid Cruiser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1940D720A7EB2100B3586E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED1940D920A7EB2100B3586E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ED1940DB20A7EB2100B3586E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		ED1940DD20A7EB2100B3586E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ED1940DF20A7EB2100B3586E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ED1940E220A7EB2100B3586E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED1940E420A7EB2500B3586E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED1940E720A7EB2500B3586E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED1940E920A7EB2500B3586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1940EE20A7EB2500B3586E /* Asteroid CruiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asteroid CruiserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1940F220A7EB2500B3586E /* Asteroid_CruiserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteroid_CruiserTests.swift; sourceTree = "<group>"; };
+		ED1940F420A7EB2500B3586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1940F920A7EB2500B3586E /* Asteroid CruiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asteroid CruiserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1940FD20A7EB2500B3586E /* Asteroid_CruiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteroid_CruiserUITests.swift; sourceTree = "<group>"; };
+		ED1940FF20A7EB2500B3586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1940D120A7EB2100B3586E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1940EB20A7EB2500B3586E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1940F620A7EB2500B3586E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1940CB20A7EB2100B3586E = {
+			isa = PBXGroup;
+			children = (
+				ED1940D620A7EB2100B3586E /* Asteroid Cruiser */,
+				ED1940F120A7EB2500B3586E /* Asteroid CruiserTests */,
+				ED1940FC20A7EB2500B3586E /* Asteroid CruiserUITests */,
+				ED1940D520A7EB2100B3586E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1940D520A7EB2100B3586E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1940D420A7EB2100B3586E /* Asteroid Cruiser.app */,
+				ED1940EE20A7EB2500B3586E /* Asteroid CruiserTests.xctest */,
+				ED1940F920A7EB2500B3586E /* Asteroid CruiserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1940D620A7EB2100B3586E /* Asteroid Cruiser */ = {
+			isa = PBXGroup;
+			children = (
+				ED1940D720A7EB2100B3586E /* AppDelegate.swift */,
+				ED1940D920A7EB2100B3586E /* GameScene.sks */,
+				ED1940DB20A7EB2100B3586E /* Actions.sks */,
+				ED1940DD20A7EB2100B3586E /* GameScene.swift */,
+				ED1940DF20A7EB2100B3586E /* GameViewController.swift */,
+				ED1940E120A7EB2100B3586E /* Main.storyboard */,
+				ED1940E420A7EB2500B3586E /* Assets.xcassets */,
+				ED1940E620A7EB2500B3586E /* LaunchScreen.storyboard */,
+				ED1940E920A7EB2500B3586E /* Info.plist */,
+			);
+			path = "Asteroid Cruiser";
+			sourceTree = "<group>";
+		};
+		ED1940F120A7EB2500B3586E /* Asteroid CruiserTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1940F220A7EB2500B3586E /* Asteroid_CruiserTests.swift */,
+				ED1940F420A7EB2500B3586E /* Info.plist */,
+			);
+			path = "Asteroid CruiserTests";
+			sourceTree = "<group>";
+		};
+		ED1940FC20A7EB2500B3586E /* Asteroid CruiserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1940FD20A7EB2500B3586E /* Asteroid_CruiserUITests.swift */,
+				ED1940FF20A7EB2500B3586E /* Info.plist */,
+			);
+			path = "Asteroid CruiserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1940D320A7EB2100B3586E /* Asteroid Cruiser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED19410220A7EB2600B3586E /* Build configuration list for PBXNativeTarget "Asteroid Cruiser" */;
+			buildPhases = (
+				ED1940D020A7EB2100B3586E /* Sources */,
+				ED1940D120A7EB2100B3586E /* Frameworks */,
+				ED1940D220A7EB2100B3586E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asteroid Cruiser";
+			productName = "Asteroid Cruiser";
+			productReference = ED1940D420A7EB2100B3586E /* Asteroid Cruiser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED1940ED20A7EB2500B3586E /* Asteroid CruiserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED19410520A7EB2600B3586E /* Build configuration list for PBXNativeTarget "Asteroid CruiserTests" */;
+			buildPhases = (
+				ED1940EA20A7EB2500B3586E /* Sources */,
+				ED1940EB20A7EB2500B3586E /* Frameworks */,
+				ED1940EC20A7EB2500B3586E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1940F020A7EB2500B3586E /* PBXTargetDependency */,
+			);
+			name = "Asteroid CruiserTests";
+			productName = "Asteroid CruiserTests";
+			productReference = ED1940EE20A7EB2500B3586E /* Asteroid CruiserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED1940F820A7EB2500B3586E /* Asteroid CruiserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED19410820A7EB2600B3586E /* Build configuration list for PBXNativeTarget "Asteroid CruiserUITests" */;
+			buildPhases = (
+				ED1940F520A7EB2500B3586E /* Sources */,
+				ED1940F620A7EB2500B3586E /* Frameworks */,
+				ED1940F720A7EB2500B3586E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1940FB20A7EB2500B3586E /* PBXTargetDependency */,
+			);
+			name = "Asteroid CruiserUITests";
+			productName = "Asteroid CruiserUITests";
+			productReference = ED1940F920A7EB2500B3586E /* Asteroid CruiserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1940CC20A7EB2100B3586E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Mike Liebold";
+				TargetAttributes = {
+					ED1940D320A7EB2100B3586E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					ED1940ED20A7EB2500B3586E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = ED1940D320A7EB2100B3586E;
+					};
+					ED1940F820A7EB2500B3586E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = ED1940D320A7EB2100B3586E;
+					};
+				};
+			};
+			buildConfigurationList = ED1940CF20A7EB2100B3586E /* Build configuration list for PBXProject "Asteroid Cruiser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED1940CB20A7EB2100B3586E;
+			productRefGroup = ED1940D520A7EB2100B3586E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1940D320A7EB2100B3586E /* Asteroid Cruiser */,
+				ED1940ED20A7EB2500B3586E /* Asteroid CruiserTests */,
+				ED1940F820A7EB2500B3586E /* Asteroid CruiserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED1940D220A7EB2100B3586E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1940E320A7EB2100B3586E /* Main.storyboard in Resources */,
+				ED1940DA20A7EB2100B3586E /* GameScene.sks in Resources */,
+				ED1940E520A7EB2500B3586E /* Assets.xcassets in Resources */,
+				ED1940E820A7EB2500B3586E /* LaunchScreen.storyboard in Resources */,
+				ED1940DC20A7EB2100B3586E /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1940EC20A7EB2500B3586E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1940F720A7EB2500B3586E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1940D020A7EB2100B3586E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1940DE20A7EB2100B3586E /* GameScene.swift in Sources */,
+				ED1940E020A7EB2100B3586E /* GameViewController.swift in Sources */,
+				ED1940D820A7EB2100B3586E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1940EA20A7EB2500B3586E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1940F320A7EB2500B3586E /* Asteroid_CruiserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1940F520A7EB2500B3586E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1940FE20A7EB2500B3586E /* Asteroid_CruiserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED1940F020A7EB2500B3586E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1940D320A7EB2100B3586E /* Asteroid Cruiser */;
+			targetProxy = ED1940EF20A7EB2500B3586E /* PBXContainerItemProxy */;
+		};
+		ED1940FB20A7EB2500B3586E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1940D320A7EB2100B3586E /* Asteroid Cruiser */;
+			targetProxy = ED1940FA20A7EB2500B3586E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED1940E120A7EB2100B3586E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1940E220A7EB2100B3586E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED1940E620A7EB2500B3586E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1940E720A7EB2500B3586E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED19410020A7EB2600B3586E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED19410120A7EB2600B3586E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED19410320A7EB2600B3586E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72XGKK9P7;
+				INFOPLIST_FILE = "Asteroid Cruiser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeliebold.Asteroid-Cruiser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED19410420A7EB2600B3586E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72XGKK9P7;
+				INFOPLIST_FILE = "Asteroid Cruiser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeliebold.Asteroid-Cruiser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED19410620A7EB2600B3586E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72XGKK9P7;
+				INFOPLIST_FILE = "Asteroid CruiserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeliebold.Asteroid-CruiserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asteroid Cruiser.app/Asteroid Cruiser";
+			};
+			name = Debug;
+		};
+		ED19410720A7EB2600B3586E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72XGKK9P7;
+				INFOPLIST_FILE = "Asteroid CruiserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeliebold.Asteroid-CruiserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asteroid Cruiser.app/Asteroid Cruiser";
+			};
+			name = Release;
+		};
+		ED19410920A7EB2600B3586E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72XGKK9P7;
+				INFOPLIST_FILE = "Asteroid CruiserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeliebold.Asteroid-CruiserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Asteroid Cruiser";
+			};
+			name = Debug;
+		};
+		ED19410A20A7EB2600B3586E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72XGKK9P7;
+				INFOPLIST_FILE = "Asteroid CruiserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeliebold.Asteroid-CruiserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Asteroid Cruiser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1940CF20A7EB2100B3586E /* Build configuration list for PBXProject "Asteroid Cruiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED19410020A7EB2600B3586E /* Debug */,
+				ED19410120A7EB2600B3586E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED19410220A7EB2600B3586E /* Build configuration list for PBXNativeTarget "Asteroid Cruiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED19410320A7EB2600B3586E /* Debug */,
+				ED19410420A7EB2600B3586E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED19410520A7EB2600B3586E /* Build configuration list for PBXNativeTarget "Asteroid CruiserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED19410620A7EB2600B3586E /* Debug */,
+				ED19410720A7EB2600B3586E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED19410820A7EB2600B3586E /* Build configuration list for PBXNativeTarget "Asteroid CruiserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED19410920A7EB2600B3586E /* Debug */,
+				ED19410A20A7EB2600B3586E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED1940CC20A7EB2100B3586E /* Project object */;
+}
